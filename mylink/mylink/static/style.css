@@ -1,0 +1,528 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.nav-container{
+    border: 1px solid  rgba(255, 255, 255, 0.496);
+    
+}
+.container-flex{
+    display: flex;
+    justify-content: space-between;  
+}
+ul{
+    display: flex;
+    margin-top: 20px;
+}
+ul li{
+    padding: 10px 15px;
+}
+li a{
+    color: black;
+}
+.free{
+    background-color:rgb(26, 95, 193) ;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.Log{
+   color:rgb(26, 95, 193)  ; 
+}
+.explore{
+    padding: 8px 30px;
+    background-color: rgb(26, 95, 193);
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 210px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.fa-chevron-down{
+    padding-left: 10px;
+}
+
+
+.logo img{
+    width: 200px;
+    height: 70px;
+    margin-top: 10px;
+}
+ /* This home space */
+
+.home-flex{
+display: flex;
+justify-content: space-around;
+}
+.home{
+    margin-top: 100px;
+}
+.home h1{
+   font-size: 53px;
+   margin-bottom: 20px; 
+}
+.home p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    width: 500px;
+}
+.Join{
+    padding: 20px 60px;
+    background-color:  rgb(26, 95, 193);
+    color: white;
+    border-radius: 5px;
+}
+.Try{
+    padding: 20px 60px;
+    border: 2px solid rgb(26, 95, 193);
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.home-container{
+    border: 2px solid rgb(255, 255, 255);
+   
+}
+/* begining of sections */
+
+.section1-flex{
+display: flex;
+text-align: center;
+}
+.section1-container h2{
+    text-align: center;
+    font-size: 40px;
+}
+.section1-row h4{
+    font-size: 20px;
+}
+.section1-row p{
+    padding: 5px 35px;
+    margin-top: 20px;
+    font-size: 17px;
+}
+/* Start to section3 */
+
+/* .section2-container{
+    display: block;
+    justify-content: center;
+    font-size: 40px;
+} */
+
+.section3-container{
+    background-image: linear-gradient(rgba(11, 11, 11, 0.577),rgba(0, 0, 0, 0.469)), url(../images/bottom_bkgd\ \(1\).jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 27px;
+}
+.section3 h1{
+/* text-align: center; */
+color: white;
+font-size: 25px;
+padding-top: 50px;
+margin-bottom: 30px;
+}
+.section3 a{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    background-color: white;
+    color: blue;
+}
+.section3{
+    text-align: center;
+}
+.section3 a:hover{
+    background-color: red;
+    color: white;
+}
+/* section 4 start */
+
+.section4-container{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.section4-flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.section4 img{
+width: 400px;
+}
+.section4 h2{
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: gray;
+}
+.section4 h1{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.section4 p{
+    padding-bottom: 35px;
+    font-size: 20px;
+    width: 450px;
+    
+} 
+
+.section4 a{
+    border: 2px solid blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+.span{
+    background-color: rgba(117, 184, 184, 0.55);
+}
+
+/* section 5 begins */
+
+.section5-container{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.section5-flex{
+    display: flex; 
+    width: 100%;  
+}
+.The-Plan p{
+   width: 270px; 
+   font-size: 20px;
+   text-align: justify;
+     
+}
+.INNOVATE p{
+    width: 250px;
+    font-size: 20px;
+    text-align: justify;
+}
+.Plan{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+
+}
+.INN{
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.The-Plan{
+    padding: 10px 30px;
+    width: 350px;
+    height: 370px;
+    background-color: goldenrod;
+    color: white;
+}
+.INNOVATE{
+    padding: 10px 30px;
+    width: 370px;
+    height: 370px;
+    color: white;
+    background-color: black;
+
+}
+
+.The-Plan a{
+    color: white;
+}
+
+.INNOVATE a{
+    color: white;
+}
+
+.ourp{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    width: 65%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+
+}
+.read{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: 2px solid white;
+    width: 70%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+.fa-square{
+    margin-right: 10px;
+}
+/* SECTION 6 BEGINS */
+
+
+.section6-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.vision h2{
+    width: 300px;
+    font-size: 35px;
+    margin-top: 75px;
+    
+}
+
+.Real{
+    text-decoration: underline solid blue;
+}
+
+.vision p{
+    margin-top: 25px;
+    width: 500px;
+    margin-bottom: 35px;
+}
+
+.vision a{
+    padding: 10px 65px;
+    background-color: rgb(26, 95, 193);
+    border-radius: 5px;
+    color: white;  
+}
+
+
+/* FOOTER BEGINS */
+
+
+.footer-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    background-color: rgb(47, 45, 45);
+    height: 250px;
+}
+
+.footer-row h4{
+    color: rgb(3, 82, 199);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer-row{
+    width: 23%;
+    padding: 10px 20px;
+    color: white;
+}
+
+.footer-row p{
+    font-size: 18px;
+}
+ /* HOVER START */
+.mark{
+    display: none;
+}
+.bar{
+    display: none;
+}
+
+.explore:hover{
+    color: orangered;
+}
+li a:hover{
+    color: orangered;
+}
+.fa-bars:hover{
+    color: orangered;
+}
+.fa-xmark:hover{
+    color: orangered;
+}
+.home a:hover{
+    color: orangered;
+}
+
+.section4 a:hover{
+    color: orangered;
+}
+.section5-flex a:hover{
+    color: orangered;
+}
+
+.section6-flex a:hover{
+    color: orangered;
+}
+
+
+/* MEDIA SCREEN START */
+
+@media screen and (max-width:600px){
+ul{
+    display: block;
+    background-color: skyblue;
+    position: absolute;
+    top: 0px;
+    right: -202px;
+    margin-top: 0px;  
+} 
+
+.mark{
+    display: block;
+}
+.bar{
+    display: block;
+}
+
+body{
+    overflow-x: hidden;
+}
+.logo img{
+    width: 150px;
+    height: 50px;
+}  
+.logo a{
+    position: absolute;
+    top: 15px;
+    left: 160px;
+}
+
+
+/* HOME PAGE BEGINS */
+
+
+.home-flex{
+    flex-direction: column-reverse
+}
+.home{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.home p{
+    width: 450px;
+   margin-left: 12px;
+   margin-bottom: 18px;
+}
+.home a{
+    padding: 10px 15px;
+}
+
+
+ /* WHY SKYLINE ICT */
+
+.section1-flex{
+    flex-direction: column;
+}
+.section1-container{
+    margin-top: 30px;
+}
+
+/* SECTION 4 */
+
+.section4-flex{
+flex-direction: column;
+text-align: center;
+}
+
+/* SECTION 5 */
+
+.section5-flex{
+    flex-direction: column;
+       
+}
+.section5-flex img{
+    width: 483px;
+    border-radius: 10px;
+    
+}
+
+.The-Plan {
+    width: 483px;
+    border-radius: 10px;
+}
+.The-Plan p{
+    width: 100%;
+}
+.Plan{
+    text-align: center;
+}
+.ourp{
+margin-left: 65px;   
+}
+
+.INNOVATE{
+    width: 483px;
+    border-radius: 10px;
+   
+}
+.INNOVATE p{
+    width: 100%;
+}
+
+.INN{
+    text-align: center;
+}
+.read{
+    margin-left: 65px;
+}
+
+/* SECTION 6 */
+
+.section6-flex{
+    flex-direction: column;
+    align-items: center;
+}
+
+.section6-flex img{
+    width: 400px;
+    height: 300px;
+}
+.vision{
+    text-align: center;
+    align-self: center;
+}
+
+.vision h2{
+    width: 100%;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.vision p{
+    width: 470px;
+}
+.vision a{
+    padding: 10px 35px;
+}
+
+/* FOOTER BEGINS */
+
+.footer-flex{
+    flex-direction: column;
+    width: 100%;
+    
+}
+.footer-row{
+    width: 100%;
+    text-align: center;
+}
+.footer-container{
+    height: 500px;
+    margin-top: 20px;
+}
+    
+    
+}
